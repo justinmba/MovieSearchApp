@@ -1,0 +1,32 @@
+<style>
+	body {
+		background: grey;
+	}
+	
+#landing-header {
+  z-index: 1; 
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+/* z-index is a 3-dimensional plane, but have to change position to relative */
+
+#landing-header h1 {
+  color: black;
+}
+</style>
+
+<div id="landing-header">
+	<h1>
+	Search for a movie
+</h1>
+
+<p>
+	Type in any keyword and this very fancy app will find the top ten search reslts!!!
+</p>
+
+<form action="/results" method="GET">
+	<input type="text" placeholder="sesarch term" name="search">
+	<input type="submit">
+</form>
+</div>
