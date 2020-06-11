@@ -21,6 +21,3 @@ app.get("/results", function(req, res){
 app.listen(3000, function(){
 	console.log("Your server has started Batman");
 });
-
-
-// &apikey=thewdb
